@@ -9,7 +9,7 @@ function volume_sphere(event) {
   var volume = (4/3) * Math.PI * Math.pow(radius, 3);
 
   // Display the volume in the volume input field
-  document.getElementById("volume").value = volume.toFixed(2);
+  document.getElementById("volume").value = volume.toFixed(4);
 }
 
 // Add an event listener to the form submit button
